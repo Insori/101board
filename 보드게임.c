@@ -51,6 +51,7 @@ void main(void)
 		if (position > 60)
 		{
 			printf("퇴근시간입니다. 안녕히가십시오.\n");
+			break;
 		}
 		
 	}
