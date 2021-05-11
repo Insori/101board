@@ -51,6 +51,6 @@ void main(void)
 	//던진 주사위값을 현재 위치에 적용
 	position += dice;
 	printf("현재위치 : %d\n\n", position);
-
+	getchar();
 
 }
