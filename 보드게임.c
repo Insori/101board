@@ -50,6 +50,13 @@ void main(void)
 		position += dice;
 		printf("현재위치 : %d, 현재금액 : &lld\n\n", position, money);
 
+		if (position == 20)
+		{
+			printf("기부천사 - *위치 20*재산의 20%%를 사회에 기부합니다\n");
+			money = (long long)(money * 0.8);
+			printf("현재위치 : %d, 현재금액 : &lld\n\n", position, money);
+		}
+
 		if (position > 60)
 		{
 			printf("퇴근시간입니다. 안녕히가십시오.\n");
