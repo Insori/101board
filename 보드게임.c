@@ -42,7 +42,7 @@ void main(void)
 		dice = rand() % 6 + 1;
 		printf("주사위를 던져서 %d가 나왔습니다.\n", dice);
 
-		// 던진 주사위값을 현재 위치에 적용
+		// 던진 주사위값을 현재 위치에 적용 
 		position += dice;
 		printf("현재위치 : %d, 현재금액 : %d \n\n", position, money);
 
@@ -76,6 +76,12 @@ void main(void)
 		case 59:
 			printf("위치 59에 있을때, 처음 지점으로 돌아갑니다.\n");
 			position = 0;
+			printf("현재위치 : %d, 현재금액 : %d \n\n", position, money);
+			break;
+
+		case 60:
+			printf("끝 점에 있을 때, 금액이 2배가 됩니다.\n");
+			money *= 2;
 			printf("현재위치 : %d, 현재금액 : %d \n\n", position, money);
 			break;
 		}
