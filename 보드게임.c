@@ -82,11 +82,11 @@ void main(void)
 			{
 				getchar();
 				printf("%d 턴입니다.\n", i);
-				dice = rand() % 6 + 1;
-				printf("주사위가 %d이(가) 나왔습니다.\n", dice);
+				int exit_dice = rand() % 6 + 1;
+				printf("주사위가 %d이(가) 나왔습니다.\n", exit_dice);
 				//주사위를 던져서 3이 나오면 무인도를 탈출
 				
-				if (dice == 3)
+				if (exit_dice == 3)
 				{
 					printf("축하합니다! %d이(가) 나왔습니다.");
 					break;
