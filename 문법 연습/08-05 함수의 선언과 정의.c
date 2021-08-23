@@ -1,6 +1,6 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
-//ÇÔ¼öÀÇ Á¤ÀÇ(difinition)
+//í•¨ìˆ˜ì˜ ì •ì˜(difinition)
 int sum(int a, int b)
 {
 	return a + b;
